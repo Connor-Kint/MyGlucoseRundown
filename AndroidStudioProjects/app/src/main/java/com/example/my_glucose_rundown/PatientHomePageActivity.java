@@ -1,5 +1,21 @@
 ///////////////////////////////////////////
 // Class: PatientHomePageActivity
+// Description: This class will allow patients to view quick trends (7 day avg, the day's avg, and latest reading),
+//              access the navigation drawer, and use a button to get to the enterNewReadingActivity
+// Last Artifact Update: 8/19/2020
+// Variables:
+//      drawerLayout - DrawerLayout component for the navigation drawer
+//      navView - NavigationView component for the navigation drawer
+//      toolbar - Toolbar component for accessing the navigation drawer through "hamburger menu"
+//      helloText - TextView that displays a welcome message with the current user's name
+//      sevenDayNum - TextView that displays the seven day average
+//      todayAvgNum - TextView to display the current day's average
+//      latestReadingNum - TextView to display the latest reading inputted by the user
+//      mAuth - Firebase Authentication instance used in database access
+//      database - Firebase database, reference to connected database
+//      myRef - Reference to top node of database, used for accessing within the database
+// Error Handling: will handle if user has no previous readings to calculate averages
+// Outside Access: Firebase Database accessed for user data access
 // Project: My Glucose Rundown
 // Project-id: CP317-TP22
 // Authors: Connor Kint, Nash McConnell, Rachel Sousa

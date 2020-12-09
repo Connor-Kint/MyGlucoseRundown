@@ -1,5 +1,17 @@
 ///////////////////////////////////////////
-// Class: Login Activity
+// Class: LoginActivity
+// Description: This class will allow users to login to the app, or press a register button to start the register process
+// Last Artifact Update: 8/19/2020
+// Variables:
+//      editEmail - EditText component used in storing inputted email for login
+//      editPassword - EditText component used in storing inputted password for login
+//      loginButton - Button component, when pressed will attempt to log a user in
+//      registerButton - Button component, when pressed will launch activities for registration
+//      mAuth - Firebase Authentication instance used in database access
+//      database - Firebase database, reference to connected database
+//      myRef - Reference to top node of database, used for accessing within the database
+// Error Handling: will handle if user inputs incorrect authorization info or if editEmail or edtiEmail are empty
+// Outside Access: Firebase Database accessed for user authentication
 // Project: My Glucose Rundown
 // Project-id: CP317-TP22
 // Authors: Connor Kint, Nash McConnell, Rachel Sousa

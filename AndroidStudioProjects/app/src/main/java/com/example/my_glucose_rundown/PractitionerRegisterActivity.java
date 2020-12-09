@@ -1,5 +1,15 @@
 ///////////////////////////////////////////
 // Class: PractitionerRegisterActivity
+// Description: If user chooses that they are a practitioner, they will fill out information about their practice
+// Last Artifact Update: 8/19/2020
+// Variables:
+//      editClinicName, editClinicAddress, editPhoneNumber, editContactEmail - EditText component used in storing inputted practitioner information for registration
+//      regButton - Button component, when pressed will add practice information to the practitioner's profile
+//      mAuth - Firebase Authentication instance used in database access
+//      database - Firebase database, reference to connected database
+//      myRef - Reference to top node of database, used for accessing within the database
+// Error Handling: will handle if user inputs incorrect
+// Outside Access: Firebase Database accessed for user authentication
 // Project: My Glucose Rundown
 // Project-id: CP317-TP22
 // Authors: Connor Kint, Nash McConnell, Rachel Sousa

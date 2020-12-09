@@ -1,5 +1,21 @@
 ///////////////////////////////////////////
 // Class: PatientTrendsActivity
+// Description: This class will allow patients to view their readings' trends, including a graph,
+//              and the ability to choose how far back data will be accessed for trends
+// Last Artifact Update: 8/19/2020
+// Variables:
+//      drawerLayout - DrawerLayout component for the navigation drawer
+//      navView - NavigationView component for the navigation drawer
+//      toolbar - Toolbar component for accessing the navigation drawer through "hamburger menu"
+//      timeSpinner - Spinner component for choice of time interval
+//      df - DecimalFormat formatter for decimal values
+//      dailyAverage, morningAverage, afternoonAverage, nighttimeAverage - TextViews to display different average's of user's readings
+//      graph - GraphView component to display trend lines for user's readings
+//      mAuth - Firebase Authentication instance used in database access
+//      database - Firebase database, reference to connected database
+//      myRef - Reference to top node of database, used for accessing within the database
+// Error Handling: will display NAN for Not applicable if the user has to readings entered
+// Outside Access: Firebase Database accessed for user data access
 // Project: My Glucose Rundown
 // Project-id: CP317-TP22
 // Authors: Connor Kint, Nash McConnell, Rachel Sousa

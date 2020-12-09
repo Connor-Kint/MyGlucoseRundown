@@ -1,5 +1,19 @@
 ///////////////////////////////////////////
 // Class: ProfilePageActivity
+// Description: This class will allow users to see their own profile info, and if they are a patient, they have the ability to change their practitioner
+// Last Artifact Update: 8/19/2020
+// Variables:
+//      drawerLayout - DrawerLayout component for the navigation drawer
+//      navView - NavigationView component for the navigation drawer
+//      toolbar - Toolbar component for accessing the navigation drawer through "hamburger menu"
+//      textFirstName, textLastName, textEmail - TextViews to display user's information
+//      userID - String to store current user's user id
+//      pracNameSpinner - Spinner component so that patient's can change their practitioner
+//      mAuth - Firebase Authentication instance used in database access
+//      database - Firebase database, reference to connected database
+//      myRef - Reference to top node of database, used for accessing within the database
+// Error Handling: will display none if data is missing
+// Outside Access: Firebase Database accessed for user data access
 // Project: My Glucose Rundown
 // Project-id: CP317-TP22
 // Authors: Connor Kint, Nash McConnell, Rachel Sousa
@@ -45,10 +59,8 @@ public class ProfilePageActivity extends AppCompatActivity implements Navigation
     private FirebaseDatabase database;
     //Layout Attributes Variable Declarations
     private String userID;
-    private PatientUser currentUser;
     private Spinner pracNameSpinner;
     private TextView textFirstName, textLastName, textEmail;
-    private Button logoutButton;
     //Navigation Drawer Variable Declaration
     DrawerLayout drawerLayout;
     NavigationView navView;

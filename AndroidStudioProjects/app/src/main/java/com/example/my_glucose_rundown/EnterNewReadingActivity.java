@@ -1,5 +1,16 @@
 ///////////////////////////////////////////
 // Class: EnterNewReadingActivity
+// Description: This class will allow practitioner to view their patients trends, ability to change
+//              between patients, and time range for trends
+// Last Artifact Update: 8/19/2020
+// Variables:
+//      drawerLayout - DrawerLayout component for the navigation drawer
+//      navView - NavigationView component for the navigation drawer
+//      toolbar - Toolbar component for accessing the navigation drawer through "hamburger menu"
+//      mAuth - Firebase Authentication instance used in database access
+//      database - Firebase database, reference to connected database
+//      myRef - Reference to top node of database, used for accessing within the database
+// Outside Access: Firebase Database accessed for user data access
 // Project: My Glucose Rundown
 // Project-id: CP317-TP22
 // Authors: Connor Kint, Nash McConnell, Rachel Sousa

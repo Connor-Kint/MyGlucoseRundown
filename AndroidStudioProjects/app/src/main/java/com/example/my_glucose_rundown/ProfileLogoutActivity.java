@@ -1,5 +1,16 @@
 ///////////////////////////////////////////
 // Class: ProfileLogoutActivity
+// Description: This class will allow users to log out of the app, then be returned to the login screen
+// Last Artifact Update: 8/19/2020
+// Variables:
+//      drawerLayout - DrawerLayout component for the navigation drawer
+//      navView - NavigationView component for the navigation drawer
+//      toolbar - Toolbar component for accessing the navigation drawer through "hamburger menu"
+//      logoutButton - Button component, when pressed will log user out and return them to login screen
+//      mAuth - Firebase Authentication instance used in database access
+//      database - Firebase database, reference to connected database
+//      myRef - Reference to top node of database, used for accessing within the database
+// Outside Access: Firebase Database accessed for user authentication
 // Project: My Glucose Rundown
 // Project-id: CP317-TP22
 // Authors: Connor Kint, Nash McConnell, Rachel Sousa
@@ -36,7 +47,6 @@ import com.google.firebase.database.ValueEventListener;
 public class ProfileLogoutActivity extends AppCompatActivity implements View.OnClickListener {
     //Layout Attributes Variable Declarations
     private Button logoutButton;
-    private TextView logoutText;
     //Firebase Access Variable Declarations
     private FirebaseDatabase database;
     private FirebaseAuth mAuth;
@@ -57,7 +67,6 @@ public class ProfileLogoutActivity extends AppCompatActivity implements View.OnC
         ///////////////////////////////////////////////////
 
         //Layout Attribute Setup///////////////////////////
-        logoutText = (TextView) findViewById(R.id.logout_text);
         logoutButton = (Button) findViewById(R.id.logout_button);
         logoutButton.setOnClickListener(this);
         ///////////////////////////////////////////////////
