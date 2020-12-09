@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.my_glucose_rundown">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".EnterNewReadingActivity"></activity>
+        <activity android:name=".PatientHomePageActivity"></activity>
+        <activity android:name=".RegisterActivity"></activity>
+        <activity android:name=".PractitionerRegisterActivity"></activity>
+        <activity android:name=".PractitionerPageActivity"></activity>
+        <activity android:name=".PatientTrendsActivity"></activity>
+        <activity android:name=".PractitionerHomePageActivity"></activity>
+        <activity android:name=".ProfilePageActivity"></activity>
+        <activity android:name=".ProfileLogoutActivity"></activity>
+        <activity android:name=".AboutPageActivity"></activity>
+        <activity android:name=".ContactPageActivity"></activity>
+
+
+
+    </application>
+
+</manifest>

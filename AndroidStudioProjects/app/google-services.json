@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "208463806816",
+    "firebase_url": "https://myglucoserundown.firebaseio.com",
+    "project_id": "myglucoserundown",
+    "storage_bucket": "myglucoserundown.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208463806816:android:9122882b40743e49e2de05",
+        "android_client_info": {
+          "package_name": "com.example.my_glucose_rundown"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208463806816-vng87krcfjoeljr0143rliutlom85tje.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBl0mErvIdZY8OgwRIjO1kWWpoK88H2Eis"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208463806816-vng87krcfjoeljr0143rliutlom85tje.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

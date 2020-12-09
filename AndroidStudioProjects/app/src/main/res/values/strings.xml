@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">MyGlucoseRundown</string>
+
+    <string-array name="times">
+        <item>Last 7 Days</item>
+        <item>Last 30 Days</item>
+        <item>Last 60 Days</item>
+        <item>Last 90 Days</item>
+    </string-array>
+
+    <string-array name="times_prac">
+        <item>None</item>
+        <item>Last 7 Days</item>
+        <item>Last 30 Days</item>
+        <item>Last 60 Days</item>
+        <item>Last 90 Days</item>
+    </string-array>
+    <string name="enter_new_reading">Enter New Reading</string>
+    <string name="glucose_reading_blank">Enter Glucose Reading</string>
+    <string name="notes_blank">Notes:</string>
+    <string name="enter_reading_button">ENTER READING</string>
+
+    <string name="login_button">LOGIN</string>
+    <string name="register_button">REGISTER</string>
+    <string name="password_blank">Password:</string>
+
+    <string name="Home_title">Home</string>
+    <string name="seven_day_average">7 Day Average</string>
+    <string name="today_average">Today\'s Average</string>
+    <string name="latest_reading">Latest Reading</string>
+
+    <string name="Register">Register</string>
+    <string name="first_name">First Name:</string>
+    <string name="last_name">Last Name:</string>
+    <string name="confirm_password">Confirm Password:</string>
+    <string name="prac_title">Practitioner?</string>
+
+    <string name="prac_register_title">Practitioner Register</string>
+    <string name="glucose_trends_title">Glucose Trends</string>
+    <string name="daily_average_title">Daily Average:</string>
+    <string name="morning_average_title">Morning Average:</string>
+    <string name="afternoon_average_title">Afternoon Average:</string>
+    <string name="nighttime_average_title">Nighttime Average:</string>
+
+    <string name="pract_page_title">Practitioner Info</string>
+    <string name="clinic_name_title">Clinic Name:</string>
+    <string name="clinic_address_title">Clinic Address:</string>
+    <string name="phone_number_title">Phone Number: (Optional)</string>
+    <string name="email_address_title">Email Address:</string>
+    <string name="contact_email_title">Contact Email:</string>
+
+    <string name="hello_blank_fragment"> Hello blank fragment</string>
+    <string name="nav_drawer_open">Open Navigation Drawer</string>
+    <string name="nav_drawer_close">Close Naviation Drawer</string>
+
+    <string name="next">Next</string>
+
+    <string name="about_the_app">About The App</string>
+    <string name="created_by">Created By:</string>
+    <string name="authors">Connor Kint, Nash McConnell, and Rachel Sousa</string>
+    <string name="purpose_subtitle">Purpose:</string>
+    <string name="purpose">This app was created with the purpose of easing the connection between diabetes patients and their practitioners while making it easier for patients to keep track of their daily glucose levels and trends.</string>
+
+    <string name="contact">Contact Us</string>
+    <string name="connor_contact">Connor Kint: kint2270@mylaurier.ca</string>
+    <string name="nash_contact">Nash McConnell: mcco7470@mylaurier.ca</string>
+    <string name="rachel_contact">Rachel Sousa: sous3960@mylaurier.ca</string>
+
+    <string name="logout">Logout</string>
+    <string name="logout_text">Are you sure you want to logout? You can always log back in after.</string>
+
+    <string name="profile">Profile</string>
+    <string name="practitioner_name">Practitioner:</string>
+
+    <string name="graph_x_axis">Days</string>
+    <string name="mmoll_unit">mmol/l</string>
+
+    <string name="prac_select">If you are a patient, select your practitioner below:</string>
+
+</resources>
